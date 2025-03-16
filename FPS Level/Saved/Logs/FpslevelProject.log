@@ -1414,3 +1414,205 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.16-19.26.15:441][945]LogEditorTransaction: Undo Boolean Meshes
 [2025.03.16-19.26.26:716][230]Cmd: TRANSACTION UNDO
 [2025.03.16-19.26.26:716][230]LogEditorTransaction: Undo Scale Elements
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: ================================================
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Total job queries 4,633, among them cache hits 38 (0.82%)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Tracking 4,588 distinct input hashes that result in 2,823 distinct outputs (61.53%)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: RAM used: 75.67 MiB of 1.60 GiB budget. Usage: 4.62%
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Shaders Compiled: 4,588
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Jobs assigned 4,591, completed 4,588 (99.93%)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Average time worker was idle: 7.02 s
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Time job spent in pending queue: average 26.47 s, longest 66.61 s
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Job execution time: average 1.80 s, max 9.41 s
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Job life time (pending + execution): average 28.28 s, max 69.74
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Shader code size: average 37.406 KiB, min 2.086 KiB, max 162.84 KiB
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 94.96 s
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Jobs were issued in 1,374 batches (only local compilation was used), average 3.34 jobs/batch
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Average processing rate: 48.31 jobs/sec
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Total thread time: 980.242 s
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Total thread preprocess time: 73.309 s
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Percentage time preprocessing: 7.48%
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Effective parallelization: 10.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 4.05 sec, max 6.76 sec, min 0.84 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 2.58 sec, max 3.14 sec, min 1.71 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 0.95 sec, max 1.86 sec, min 0.47 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                  FDiffuseIndirectCompositePS (compiled   12 times, average 0.78 sec, max 1.62 sec, min 0.05 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 0.77 sec, max 1.98 sec, min 0.63 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                             FDeferredLightPS - 10.58% of total time (compiled  134 times, average 0.77 sec, max 1.98 sec, min 0.63 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.58% of total time (compiled   96 times, average 0.47 sec, max 0.78 sec, min 0.29 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.83% of total time (compiled   96 times, average 0.39 sec, max 0.63 sec, min 0.10 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 3.74% of total time (compiled  128 times, average 0.29 sec, max 1.00 sec, min 0.08 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 3.61% of total time (compiled   64 times, average 0.55 sec, max 1.03 sec, min 0.29 sec)
+[2025.03.16-19.28.37:871][229]LogShaderCompilers: Display: ================================================
+[2025.03.16-19.29.07:483][104]LogWorldPartition: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1215835001 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/SS/5XG7C1Z630VH2PWC68ZYFY.PackageMetaData in its package
+[2025.03.16-19.29.07:486][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.03.16-19.29.07:488][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/4M/C1BCKCB4E9144AHMU8Y2DT_Auto2
+[2025.03.16-19.29.07:488][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/C1BCKCB4E9144AHMU8Y2DT_Auto205125F84498176F278932BBFBAD2876E.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/4M/C1BCKCB4E9144AHMU8Y2DT_Auto2.uasset'
+[2025.03.16-19.29.07:491][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/LR/CSWBH5NV2XUR2NVL52CEZM_Auto2
+[2025.03.16-19.29.07:491][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/CSWBH5NV2XUR2NVL52CEZM_Auto203A8BDE147AEF7478650DE9ED36ADC86.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/LR/CSWBH5NV2XUR2NVL52CEZM_Auto2.uasset'
+[2025.03.16-19.29.07:492][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/U9/Q63CI7069G4UF4Y7A6VRSS_Auto2
+[2025.03.16-19.29.07:493][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Q63CI7069G4UF4Y7A6VRSS_Auto229C4DEB14A4F6A3BAAD89CB2D53ADAED.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/U9/Q63CI7069G4UF4Y7A6VRSS_Auto2.uasset'
+[2025.03.16-19.29.07:495][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/NW/5IE0SZX862HI6P5UAYSSJC_Auto2
+[2025.03.16-19.29.07:496][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/5IE0SZX862HI6P5UAYSSJC_Auto2057774554DA7C57D0324119271F85693.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/NW/5IE0SZX862HI6P5UAYSSJC_Auto2.uasset'
+[2025.03.16-19.29.07:497][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S_Auto2
+[2025.03.16-19.29.07:498][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/YUZ9741T50O1SYRX90OB0S_Auto23620EC9A446FE8762E2ED08DBACBFD3E.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S_Auto2.uasset'
+[2025.03.16-19.29.07:499][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/SB/QENQO6M6NB6ACEJ5LGVMP3_Auto2
+[2025.03.16-19.29.07:499][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/QENQO6M6NB6ACEJ5LGVMP3_Auto2E96E9ED949E488A2E15D3BBCF768C0EF.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/SB/QENQO6M6NB6ACEJ5LGVMP3_Auto2.uasset'
+[2025.03.16-19.29.07:502][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/8E/YPVWE4P5PTXKLJWYOQTLBP_Auto2
+[2025.03.16-19.29.07:502][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/YPVWE4P5PTXKLJWYOQTLBP_Auto21FE611374D3C8FC471DC8FB7BF668A90.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/8E/YPVWE4P5PTXKLJWYOQTLBP_Auto2.uasset'
+[2025.03.16-19.29.07:503][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/6T/CNGMZ6XETLX9WJSICL8YTJ_Auto2
+[2025.03.16-19.29.07:503][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/CNGMZ6XETLX9WJSICL8YTJ_Auto27E387CD04275DDEF9A683C9B78852BFB.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/6T/CNGMZ6XETLX9WJSICL8YTJ_Auto2.uasset'
+[2025.03.16-19.29.07:505][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/BY/VW6WOAJSJDMBTC30RZ7PP8_Auto2
+[2025.03.16-19.29.07:505][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/VW6WOAJSJDMBTC30RZ7PP8_Auto2D707A0F3475277AE624876B8E57ED780.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/BY/VW6WOAJSJDMBTC30RZ7PP8_Auto2.uasset'
+[2025.03.16-19.29.07:508][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/VS/72TOEMERW1VE9GIKZSI3DE_Auto2
+[2025.03.16-19.29.07:508][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/72TOEMERW1VE9GIKZSI3DE_Auto288FDA20D458FCF0A5A7B1BB8F200F249.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/VS/72TOEMERW1VE9GIKZSI3DE_Auto2.uasset'
+[2025.03.16-19.29.07:509][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/9U/4E9JZ83BMA2GZST89IUQUJ_Auto2
+[2025.03.16-19.29.07:509][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/4E9JZ83BMA2GZST89IUQUJ_Auto2E34AFD0749764E108135EA8372E8C7E9.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/9U/4E9JZ83BMA2GZST89IUQUJ_Auto2.uasset'
+[2025.03.16-19.29.07:510][104]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.030
+[2025.03.16-19.29.07:510][104]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.030
+[2025.03.16-19.29.07:510][104]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_7DE5D1F5] ([1] browsable assets)...
+[2025.03.16-19.29.07:510][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_7DE5D1F5]
+[2025.03.16-19.29.07:511][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_7DE5D1F5_Auto2
+[2025.03.16-19.29.07:511][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_7DE5D1F5_Auto2488117AF42EB0C7ADD96CB9FDE3FF1CC.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_7DE5D1F5_Auto2.uasset'
+[2025.03.16-19.29.07:512][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_DE3CB812] ([1] browsable assets)...
+[2025.03.16-19.29.07:548][104]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_DE3CB812.Boolean_DE3CB812]
+[2025.03.16-19.29.07:548][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_DE3CB812]
+[2025.03.16-19.29.07:549][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_DE3CB812_Auto2
+[2025.03.16-19.29.07:549][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_DE3CB812_Auto26C2F815345E1011BD587C78B27780782.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_DE3CB812_Auto2.uasset'
+[2025.03.16-19.29.07:551][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C9B87FD9] ([1] browsable assets)...
+[2025.03.16-19.29.07:557][104]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C9B87FD9.Boolean_C9B87FD9]
+[2025.03.16-19.29.07:557][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C9B87FD9]
+[2025.03.16-19.29.07:559][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C9B87FD9_Auto2
+[2025.03.16-19.29.07:559][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_C9B87FD9_Auto27F902DC0483AFF7AD1CAAAB28871AB66.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C9B87FD9_Auto2.uasset'
+[2025.03.16-19.29.07:560][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_A14D2530] ([1] browsable assets)...
+[2025.03.16-19.29.07:565][104]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_A14D2530.Boolean_A14D2530]
+[2025.03.16-19.29.07:565][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_A14D2530]
+[2025.03.16-19.29.07:567][104]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_A14D2530_Auto2
+[2025.03.16-19.29.07:567][104]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_A14D2530_Auto2F2F949C74B9A75085050058D1D2C4933.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Autosaves/Game/FirstPerson/Maps/_GENERATED/compt/Boolean_A14D2530_Auto2.uasset'
+[2025.03.16-19.29.07:568][104]LogFileHelpers: Auto-saving content packages took 0.058
+[2025.03.16-19.29.07:763][105]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2025.03.16-19.29.15:439][129]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1316.848389
+[2025.03.16-19.29.16:438][132]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.16-19.29.16:438][132]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1317.519653, Update Interval: 341.870178
+[2025.03.16-19.29.20:294][353]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.16-19.29.20:347][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.03.16-19.29.20:351][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.03.16-19.29.20:353][353]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.03.16-19.29.20:355][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/4M/C1BCKCB4E9144AHMU8Y2DT
+[2025.03.16-19.29.20:355][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/C1BCKCB4E9144AHMU8Y2DT7378F775444E3013B1F6CC941927E736.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/4M/C1BCKCB4E9144AHMU8Y2DT.uasset'
+[2025.03.16-19.29.20:357][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/LR/CSWBH5NV2XUR2NVL52CEZM
+[2025.03.16-19.29.20:357][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/CSWBH5NV2XUR2NVL52CEZM4E66884A4958C62F80778C9B4BF7C2E7.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/LR/CSWBH5NV2XUR2NVL52CEZM.uasset'
+[2025.03.16-19.29.20:358][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/U9/Q63CI7069G4UF4Y7A6VRSS
+[2025.03.16-19.29.20:359][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Q63CI7069G4UF4Y7A6VRSSAE16D285421FB7E79002ACAA44A965F3.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/U9/Q63CI7069G4UF4Y7A6VRSS.uasset'
+[2025.03.16-19.29.20:360][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/NW/5IE0SZX862HI6P5UAYSSJC
+[2025.03.16-19.29.20:361][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/5IE0SZX862HI6P5UAYSSJCC03F6A0F4E3DFF3FF09867972772255E.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/NW/5IE0SZX862HI6P5UAYSSJC.uasset'
+[2025.03.16-19.29.20:362][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S
+[2025.03.16-19.29.20:362][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/YUZ9741T50O1SYRX90OB0SA68031884FDA6DAEC82A32AC9A880204.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/UE/YUZ9741T50O1SYRX90OB0S.uasset'
+[2025.03.16-19.29.20:364][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/SB/QENQO6M6NB6ACEJ5LGVMP3
+[2025.03.16-19.29.20:364][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/QENQO6M6NB6ACEJ5LGVMP30F77F1A1436CED1008FCC8BFAA8C8E56.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/SB/QENQO6M6NB6ACEJ5LGVMP3.uasset'
+[2025.03.16-19.29.20:365][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/8E/YPVWE4P5PTXKLJWYOQTLBP
+[2025.03.16-19.29.20:365][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/YPVWE4P5PTXKLJWYOQTLBP22C5DED14E53C0C93EE06EB80DE51AD6.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/8E/YPVWE4P5PTXKLJWYOQTLBP.uasset'
+[2025.03.16-19.29.20:367][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/6T/CNGMZ6XETLX9WJSICL8YTJ
+[2025.03.16-19.29.20:367][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/CNGMZ6XETLX9WJSICL8YTJFA0DA9E94A4D9A74F9F0728A3B86CE7A.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/6T/CNGMZ6XETLX9WJSICL8YTJ.uasset'
+[2025.03.16-19.29.20:368][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/BY/VW6WOAJSJDMBTC30RZ7PP8
+[2025.03.16-19.29.20:368][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/VW6WOAJSJDMBTC30RZ7PP8F00CB5F24C144C6F4B37E08C2A192E0A.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/BY/VW6WOAJSJDMBTC30RZ7PP8.uasset'
+[2025.03.16-19.29.20:370][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/VS/72TOEMERW1VE9GIKZSI3DE
+[2025.03.16-19.29.20:370][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/72TOEMERW1VE9GIKZSI3DEF72F7D2A45756A8330CEEC84FE37BF61.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/VS/72TOEMERW1VE9GIKZSI3DE.uasset'
+[2025.03.16-19.29.20:371][353]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/9U/4E9JZ83BMA2GZST89IUQUJ
+[2025.03.16-19.29.20:371][353]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/4E9JZ83BMA2GZST89IUQUJ31B6ABDD44AF5FFA30B4759A67C0A978.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/9U/4E9JZ83BMA2GZST89IUQUJ.uasset'
+[2025.03.16-19.29.20:387][353]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 316 ms)
+[2025.03.16-19.29.20:391][353]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_50EBF64AD467BE5402_1124273665
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_50EBF64AD467BE5402_1335268668
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_50EBF64AD467E65202_2114105581
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_B88584B511D2855302_1679395561
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_9
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354B95502_1876220817
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354B95502_1989937820
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354B95502_1980988819
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1210336000
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1183674999
+[2025.03.16-19.29.20:391][353]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354B95502_2024023822
+[2025.03.16-19.29.24:611][850]LogViewport: Scene viewport resized to 2038x1252, mode Windowed.
+[2025.03.16-19.30.11:653][381]LogCore: Display: Tracing Screenshot "HighresScreenshot00000" taken with size: 2038 x 1252
+[2025.03.16-19.30.11:947][382]LogClient: High resolution screenshot saved as C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Screenshots/WindowsEditor/HighresScreenshot00000.png
+[2025.03.16-19.30.35:864][950]Cmd: r.ResetRenderTargetsExtent
+[2025.03.16-19.30.35:864][950]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2025.03.16-19.30.35:864][950]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2025.03.16-19.31.14:197][404]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.03.16-19.31.14:197][404]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.03.16-19.31.14:198][404]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1521514002
+[2025.03.16-19.31.14:199][404]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1521514002
+[2025.03.16-19.31.42:757][432]LogViewport: Scene viewport resized to 1564x1252, mode Windowed.
+[2025.03.16-19.31.52:252][533]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_8EF6C306.Boolean_8EF6C306
+[2025.03.16-19.31.52:252][533]LogStaticMesh: Display: Building static mesh Boolean_8EF6C306...
+[2025.03.16-19.31.52:253][533]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_8EF6C306.Boolean_8EF6C306 as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1559569003
+[2025.03.16-19.31.52:253][533]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_8EF6C306.Boolean_8EF6C306
+[2025.03.16-19.31.53:178][602]LogEditorViewport: Clicking Background
+[2025.03.16-19.32.03:417][736]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.03.16-19.32.03:417][736]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2025.03.16-19.32.03:418][736]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1570734004
+[2025.03.16-19.32.03:418][736]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1570734004
+[2025.03.16-19.32.35:956][214]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C4E96A7A.Boolean_C4E96A7A
+[2025.03.16-19.32.35:956][214]LogStaticMesh: Display: Building static mesh Boolean_C4E96A7A...
+[2025.03.16-19.32.35:957][214]LogActorFactory: Actor Factory spawned StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C4E96A7A.Boolean_C4E96A7A as actor: StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1603273005
+[2025.03.16-19.32.35:957][214]LogStaticMesh: Built static mesh [0.00s] /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C4E96A7A.Boolean_C4E96A7A
+[2025.03.16-19.33.23:317][641]LogViewport: Scene viewport resized to 2038x1252, mode Windowed.
+[2025.03.16-19.33.51:439][983]LogCore: Display: Tracing Screenshot "HighresScreenshot00000" taken with size: 2038 x 1252
+[2025.03.16-19.33.51:726][984]LogClient: High resolution screenshot saved as C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Screenshots/WindowsEditor/HighresScreenshot00000.png
+[2025.03.16-19.34.17:337][643]LogCore: Display: Tracing Screenshot "HighresScreenshot00000" taken with size: 2038 x 1252
+[2025.03.16-19.34.17:617][644]LogClient: High resolution screenshot saved as C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Screenshots/WindowsEditor/HighresScreenshot00000.png
+[2025.03.16-19.34.38:454][935]LogCore: Display: Tracing Screenshot "HighresScreenshot00000" taken with size: 2038 x 1252
+[2025.03.16-19.34.38:748][936]LogClient: High resolution screenshot saved as C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Screenshots/WindowsEditor/HighresScreenshot00000.png
+[2025.03.16-19.35.04:342][ 29]LogCore: Display: Tracing Screenshot "HighresScreenshot00000" taken with size: 2038 x 1252
+[2025.03.16-19.35.04:613][ 30]LogClient: High resolution screenshot saved as C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Screenshots/WindowsEditor/HighresScreenshot00000.png
+[2025.03.16-19.35.17:707][136]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1679.107300
+[2025.03.16-19.35.18:705][139]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.03.16-19.35.18:705][139]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1679.772095, Update Interval: 352.620636
+[2025.03.16-19.35.20:594][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.16-19.35.20:652][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2025.03.16-19.35.20:655][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.03.16-19.35.20:658][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.03.16-19.35.20:659][221]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/9U/4E9JZ83BMA2GZST89IUQUJ
+[2025.03.16-19.35.20:659][221]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/4E9JZ83BMA2GZST89IUQUJ34517B0140FA7318CEB1ADA459DFD6AD.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/9U/4E9JZ83BMA2GZST89IUQUJ.uasset'
+[2025.03.16-19.35.20:662][221]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/GJ/K4QC35FDLLK46ZT9HX3W0W
+[2025.03.16-19.35.20:662][221]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/K4QC35FDLLK46ZT9HX3W0W36F899074E3295A7B48278B1AD7EB00F.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/GJ/K4QC35FDLLK46ZT9HX3W0W.uasset'
+[2025.03.16-19.35.20:677][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 399 ms)
+[2025.03.16-19.35.20:678][221]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.16-19.35.20:678][221]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354B95502_2024023822
+[2025.03.16-19.35.20:678][221]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_74563C4E8354BA5502_1603273005
+[2025.03.16-19.35.21:511][319]Cmd: r.ResetRenderTargetsExtent
+[2025.03.16-19.35.21:511][319]Scene texture extent history reset. Next scene render will reallocate textures at the requested size.
+[2025.03.16-19.35.21:511][319]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2025.03.16-19.35.23:768][574]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.16-19.35.23:804][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.03.16-19.35.23:809][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.03.16-19.35.23:812][574]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2025.03.16-19.35.23:824][574]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 455 ms)
+[2025.03.16-19.35.24:999][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2025.03.16-19.35.27:211][713]LogSlate: Window 'Save Content' being destroyed
+[2025.03.16-19.35.27:217][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.16-19.35.27:260][713]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_7DE5D1F5
+[2025.03.16-19.35.27:260][713]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_7DE5D1F52796A3E041CBCB09F37B51AC9257B98F.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/FirstPerson/Maps/_GENERATED/compt/Boolean_7DE5D1F5.uasset'
+[2025.03.16-19.35.27:304][713]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_8EF6C306
+[2025.03.16-19.35.27:304][713]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_8EF6C306FC80BD874F09D92DD3919B9BCDD47E69.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/FirstPerson/Maps/_GENERATED/compt/Boolean_8EF6C306.uasset'
+[2025.03.16-19.35.27:306][713]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_A14D2530
+[2025.03.16-19.35.27:306][713]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_A14D2530E43DAFEA4C79FEDBE32F9A9680A1A239.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/FirstPerson/Maps/_GENERATED/compt/Boolean_A14D2530.uasset'
+[2025.03.16-19.35.27:314][713]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C4E96A7A
+[2025.03.16-19.35.27:314][713]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_C4E96A7A87BB9294454B0A1E92DD2DB5C9ABB1B2.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/FirstPerson/Maps/_GENERATED/compt/Boolean_C4E96A7A.uasset'
+[2025.03.16-19.35.27:316][713]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C9B87FD9
+[2025.03.16-19.35.27:316][713]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_C9B87FD95DC995DE4B23D6FE0FA284B59C3D3327.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/FirstPerson/Maps/_GENERATED/compt/Boolean_C9B87FD9.uasset'
+[2025.03.16-19.35.27:318][713]LogSavePackage: Moving output files for package: /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_DE3CB812
+[2025.03.16-19.35.27:318][713]LogSavePackage: Moving '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Saved/Boolean_DE3CB812F3752A654932EF50483150AF4C85411D.tmp' to '../../../../../../Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/FirstPerson/Maps/_GENERATED/compt/Boolean_DE3CB812.uasset'
+[2025.03.16-19.35.27:334][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 572 ms)
+[2025.03.16-19.35.27:336][713]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.16-19.35.27:336][713]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_7DE5D1F5.Boolean_7DE5D1F5
+[2025.03.16-19.35.27:336][713]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_8EF6C306.Boolean_8EF6C306
+[2025.03.16-19.35.27:336][713]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_A14D2530.Boolean_A14D2530
+[2025.03.16-19.35.27:336][713]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C4E96A7A.Boolean_C4E96A7A
+[2025.03.16-19.35.27:336][713]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_C9B87FD9.Boolean_C9B87FD9
+[2025.03.16-19.35.27:336][713]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/FirstPerson/Maps/_GENERATED/compt/Boolean_DE3CB812.Boolean_DE3CB812
+[2025.03.16-19.35.27:341][713]LogAutomationController: Ignoring very large delta of 2.35 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
