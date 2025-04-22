@@ -8638,3 +8638,30 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.22-21.05.01:763][357]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto6
 [2025.04.22-21.05.01:763][357]LogSavePackage: Moving '../../../../../../Users/mi567943/Documents/GitHub/Fps-Level/FPS Level/Saved/BP_Weapon_Component_Auto6780CB5C545967AF1BE500FB08C5F6CDE.tmp' to '../../../../../../Users/mi567943/Documents/GitHub/Fps-Level/FPS Level/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_Weapon_Component_Auto6.uasset'
 [2025.04.22-21.05.01:763][357]LogFileHelpers: Auto-saving content packages took 0.213
+[2025.04.22-21.07.02:488][721]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 16229.909180
+[2025.04.22-21.07.03:489][724]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.04.22-21.07.03:489][724]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 16230.576172, Update Interval: 323.075653
+[2025.04.22-21.07.22:589][781]LogSlate: Window 'IA_Shoot' being destroyed
+[2025.04.22-21.07.22:592][781]LogSlate: Window 'IA_Shoot' being destroyed
+[2025.04.22-21.07.22:597][781]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-21.07.22:597][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-21.07.22:629][781]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-21.07.22:629][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-21.07.29:070][317]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-21.07.29:133][317]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile
+[2025.04.22-21.07.29:134][317]LogSavePackage: Moving '../../../../../../Users/mi567943/Documents/GitHub/Fps-Level/FPS Level/Saved/BP_FirstPersonProjectileB115E5694EC6B0361F0576B12B519768.tmp' to '../../../../../../Users/mi567943/Documents/GitHub/Fps-Level/FPS Level/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset'
+[2025.04.22-21.07.29:141][317]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 2.43 sec)
+[2025.04.22-21.07.29:143][317]AssetCheck: New page: Asset Save: BP_FirstPersonProjectile
+[2025.04.22-21.07.29:143][317]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile
+[2025.04.22-21.07.31:164][524]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-21.07.31:255][524]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2025.04.22-21.07.31:256][524]LogSavePackage: Moving '../../../../../../Users/mi567943/Documents/GitHub/Fps-Level/FPS Level/Saved/BP_FirstPersonCharacter705BBD804DBD9A659C7714AFC85F19E0.tmp' to '../../../../../../Users/mi567943/Documents/GitHub/Fps-Level/FPS Level/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2025.04.22-21.07.31:266][524]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 2.53 sec)
+[2025.04.22-21.07.31:269][524]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2025.04.22-21.07.31:269][524]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2025.04.22-21.07.32:681][659]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-21.07.32:756][659]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2025.04.22-21.07.32:757][659]LogSavePackage: Moving '../../../../../../Users/mi567943/Documents/GitHub/Fps-Level/FPS Level/Saved/BP_Weapon_Component9C1734E84967CABFD7F13C83F1BB890D.tmp' to '../../../../../../Users/mi567943/Documents/GitHub/Fps-Level/FPS Level/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2025.04.22-21.07.32:767][659]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 2.61 sec)
+[2025.04.22-21.07.32:769][659]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2025.04.22-21.07.32:769][659]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
