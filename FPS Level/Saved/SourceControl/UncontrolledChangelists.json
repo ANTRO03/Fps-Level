@@ -6,8 +6,6 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/Y7/QJHKJ1BCLPNR0MY7R9E6O4.uasset",
-				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/O8/RJJX3RDAH6LPUVUTP7ZQM3.uasset",
-				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/LR/HAZ5G7J64USJWWT3S1LZLK.uasset",
 				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/0/5F/TOA86HOCMRBXB0N2G4RQ7Y.uasset",
 				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/9D/VO9KDM17WG21Z3OFOT3GIH.uasset",
 				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/9O/HVQ9429IX5V1YR1HUQDHQ8.uasset",
@@ -17,7 +15,10 @@
 				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/2T/501HPBHBC4I45EK1OM316U.uasset",
 				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/8W/AQTH0279KE3TWXLVTJJ3EK.uasset",
 				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/MI/XF7CJHB4ZBUOPWWDNUXAYH.uasset",
-				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/VO/VMN4G7K3NKKV6F8HTPHHDB.uasset"
+				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/VO/VMN4G7K3NKKV6F8HTPHHDB.uasset",
+				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset",
+				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/O8/RJJX3RDAH6LPUVUTP7ZQM3.uasset",
+				"C:/Users/compt/OneDrive/Desktop/FpslevelProject2 5.3/Fps-Level/FPS Level/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/LR/HAZ5G7J64USJWWT3S1LZLK.uasset"
 			]
 		}
 	]
